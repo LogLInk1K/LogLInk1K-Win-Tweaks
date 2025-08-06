@@ -1,7 +1,9 @@
 # LogLInk1K-Win-Tweaks
-LogLInk1K-Win-Tweaks 主要用于备份我个人在使用Windows过程中，为解决一些小问题创建的脚本工具，目前该项目已包括：AMD显卡驱动版本查询修改恢复，右键菜单去除AMD Software、右键菜单添加在终端中打开等功能
+LogLInk1K-Win-Tweaks 主要用于备份我个人在使用 Windows 11 过程中，为解决一些小问题创建的脚本工具，目前该项目已包括：AMD显卡驱动版本查询修改恢复，右键菜单去除AMD Software、右键菜单添加在终端中打开等功能
 
-> 未经过更多测试，个人系统及版本为 Windows11 Pro 24H2<br>这些脚本均属于我的个人解决方案，无法提供任何担保
+**⚠️ 重要提示：**  
+
+> 未经过更多测试，个人系统及版本为 Windows11 Pro 24H2<br>同时该系统已通过 [ExplorerPatcher](https://github.com/valinet/ExplorerPatcher) 禁用 Win11 右键菜单<br>以下有关右键菜单的脚本无法保证在 Win11 右键菜单中同样可用<br>所有脚本均属于我的个人解决方案，若使用即表示您了解相关风险
 
 ## 🔧 脚本集
 
@@ -10,8 +12,9 @@ LogLInk1K-Win-Tweaks 主要用于备份我个人在使用Windows过程中，为�
 | [AMD显卡驱动版本查询.bat](/AMD_Tools/AMD显卡驱动版本查询.bat) | 快速检测当前驱动版本号 | 无需打开注册表，即可验证对驱动版本的修改是否生效 |
 | [AMD显卡驱动版本修改.reg](/AMD_Tools/AMD显卡驱动版本修改.reg) | 修改显卡驱动版本信息 | 绕过旧游戏，以及新游戏的驱动版本检测 |
 | [AMD显卡驱动版本恢复.reg](/AMD_Tools/AMD显卡驱动版本恢复.reg) | 还原显卡驱动版本信息 | 修复因版本修改导致的兼容问题 |
-| [桌面右键菜单AMD显卡控制面板移除.reg](/AMD_Tools/桌面右键菜单AMD显卡控制面板移除.reg) | 移除右键菜单中的 AMD Software:Adrenalin Edition |
-| [桌面右键菜单AMD显卡控制面板恢复.reg](/AMD_Tools/桌面右键菜单AMD显卡控制面板恢复.reg) | 恢复右键菜单中的 AMD Software:Adrenalin Edition |
+| [桌面右键菜单AMDSoftware移除-方法1.reg](/AMD_Tools/桌面右键菜单AMDSoftware移除-方法1.reg) | 通过注册表移除右键菜单中的 AMD Software:Adrenalin Edition|
+| [桌面右键菜单AMDSoftware恢复-方法1.reg](/AMD_Tools/桌面右键菜单AMDSoftware恢复-方法1.reg) | 通过注册表恢复右键菜单中的 AMD Software:Adrenalin Edition|
+| [桌面右键菜单AMDSoftware移除-方法2.txt](/AMD_Tools/桌面右键菜单AMDSoftware恢复-方法2.txt) | 通过PowerShell命令来彻底移除右键菜单中的 AMD Software:Adrenalin Edition |
 | [桌面右键菜单添加在终端中打开.reg](/Desktop_Tweaks/桌面右键菜单添加在终端中打开.reg) | 添加"在终端中打开"选项 |
 | [桌面右键菜单移除在终端中打开.reg](/Desktop_Tweaks/桌面右键菜单移除在终端中打开.reg) | 移除"在终端中打开"选项 |
 
@@ -23,12 +26,12 @@ LogLInk1K-Win-Tweaks 主要用于备份我个人在使用Windows过程中，为�
 
 ---
 
-- 之所以想移除右键菜单中的 AMD Software:Adrenalin Edition ，主要是因为这一串太长了，显得右键菜单的窗口大小很臃肿，而且一般我想使用 AMD Software 时，主要的打开方式是通过 Windows 右下角的托盘菜单里的 AMD Software 来打开。
+- 之所以想移除右键菜单中的 AMD Software:Adrenalin Edition ，主要是因为这一串太长了，显得右键菜单的窗口大小很臃肿，右键菜单打开速度缓慢，而且一般我想使用 AMD Software 时，主要的打开方式是通过 Windows 右下角的托盘菜单里的 AMD Software 来打开。
+- 两个方法的区别主要是方法2无法恢复，需要重新安装AMD显卡驱动，才能恢复右键菜单中的 AMD Software:Adrenalin Edition
 
 ---
 
-- 添加在终端中打开的初衷，是为了解决在 Windows11 中，禁用 Windows11 右键菜单，右键菜单恢复成 Windows10 样式后，右键菜单中不显示“在终端中打开”的问题。
-- 这个问题通常会在 Windows 终端 更新后得到解决（应该），如果更新或重装后仍然没有解决，可先用该添加脚本做替代。
-- 如果之后右键菜单中又多了一个“在终端中打开”，可再使用移除脚本删掉之前脚本所添加的“在终端中打开”，脚本添加的“在终端中打开”与官方添加的“在终端中打开”无冲突，可以放心移除。
+- 添加在终端中打开.reg的产生，其实与以上的AMD Software移除-方法1有关
+- 通过方法1的方式来移除 AMD Software 后，会莫名导致系统原本的“在终端中打开”消失（暂不清楚是否会影响更多的右键菜单选项），所以需要自行添加一个作为替代
 
 ---
