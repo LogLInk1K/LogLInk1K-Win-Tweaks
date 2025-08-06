@@ -15,7 +15,7 @@ LogLInk1K-Win-Tweaks 主要用于备份我个人在使用Windows过程中，为�
 | [桌面右键菜单添加在终端中打开.reg](/Desktop_Tweaks/桌面右键菜单添加在终端中打开.reg) | 添加"在终端中打开"选项 |
 | [桌面右键菜单移除在终端中打开.reg](/Desktop_Tweaks/桌面右键菜单移除在终端中打开.reg) | 移除"在终端中打开"选项 |
 
-## 由来
+## 脚本来由
 
 - 对AMD显卡驱动版本的修改，主要是为了绕过一些旧游戏或者新游戏对AMD显卡驱动版本的检测。
 - 这些检测通常都很好绕过，修改注册表后一般不用重启电脑即可打开游戏。
@@ -23,7 +23,7 @@ LogLInk1K-Win-Tweaks 主要用于备份我个人在使用Windows过程中，为�
 
 ---
 
-- 而为什么移除右键菜单中的 AMD Software:Adrenalin Edition ，主要是这一串太长了，显得右键菜单的窗口大小很臃肿，而且一般我想使用 AMD Software 时，主要的打开方式是通过 Windows 右下角的托盘菜单里的 AMD Software 来打开。
+- 之所以想移除右键菜单中的 AMD Software:Adrenalin Edition ，主要是因为这一串太长了，显得右键菜单的窗口大小很臃肿，而且一般我想使用 AMD Software 时，主要的打开方式是通过 Windows 右下角的托盘菜单里的 AMD Software 来打开。
 
 ---
 
