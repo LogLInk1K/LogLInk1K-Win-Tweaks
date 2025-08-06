@@ -1,0 +1,11 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\OpenWTHere]
+@="在终端中打开"
+"Icon"="C:\\Windows\\System32\\wt_icon.ico"
+
+;[HKEY_CLASSES_ROOT\Directory\Background\shell\OpenWTHere\command]
+;@="\"C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps\\wt.exe\" -d \"%V\""
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\OpenWTHere\command]
+@="powershell.exe"

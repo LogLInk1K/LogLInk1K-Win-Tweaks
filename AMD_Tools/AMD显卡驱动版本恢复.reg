@@ -1,0 +1,14 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Video\{DB1F213F-6102-11F0-922F-88A5D5E390B6}\0000]
+"ReleaseVersion"="24.20.01.02-240715a-405532E-KB-AMD-Software-Adrenalin-Edition"
+
+
+
+; 注意: 目标注册表路径中的 {DB1F213F-6102-11F0-922F-88A5D5E390B6} 是设备特定ID
+; 不同电脑此ID可能不同，请先确认路径存在
+; [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Video\{DB1F213F-6102-11F0-922F-88A5D5E390B6}\0000]
+
+; 要修改的键值名称和新的数值数据
+; 原始值如下
+; 24.20.01.02-240715a-405532E-KB-AMD-Software-Adrenalin-Edition

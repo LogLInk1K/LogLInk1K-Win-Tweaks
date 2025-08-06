@@ -20,6 +20,7 @@ LogLInk1K-Win-Tweaks 主要用于备份我个人在使用Windows过程中，为�
 | [桌面右键菜单AMD显卡控制面板移除.reg](/AMD_Tools/桌面右键菜单AMD显卡控制面板移除.reg) | 移除右键菜单中的 AMD Software:Adrenalin Edition |
 | [桌面右键菜单AMD显卡控制面板恢复.reg](/AMD_Tools/桌面右键菜单AMD显卡控制面板恢复.reg) | 恢复右键菜单中的 AMD Software:Adrenalin Edition |
 
+#### 由来
 
 - 对AMD显卡驱动版本的修改，主要是为了绕过一些旧游戏或者新游戏对AMD显卡驱动版本的检测。
 - 这些检测通常都很好绕过，修改注册表后一般不用重启电脑即可打开游戏。
@@ -32,6 +33,8 @@ LogLInk1K-Win-Tweaks 主要用于备份我个人在使用Windows过程中，为�
 |----------|------|
 | [桌面右键菜单添加在终端中打开.reg](/Desktop_Tweaks/桌面右键菜单添加在终端中打开.reg) | 添加"在终端中打开"选项 |
 | [桌面右键菜单移除在终端中打开.reg](/Desktop_Tweaks/桌面右键菜单移除在终端中打开.reg) | 移除"在终端中打开"选项 |
+
+#### 由来
 
 - 该功能的初衷，是为了解决在 Windows11 中，禁用 Windows11 右键菜单，右键菜单恢复成 Windows10 样式后，右键菜单中不显示“在终端中打开”的问题
 - 这个问题通常会在 Windows 终端 更新后得到解决（应该），如果更新或重装后仍然没有解决，可先用该添加脚本做替代
