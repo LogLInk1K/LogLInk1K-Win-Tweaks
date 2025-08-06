@@ -3,7 +3,7 @@ LogLInk1K-Win-Tweaks 主要用于备份我个人在使用 Windows 11 过程中�
 
 **⚠️ 重要提示：**  
 
-> 未经过更多测试，个人系统及版本为 Windows11 Pro 24H2<br>同时该系统已通过 [ExplorerPatcher](https://github.com/valinet/ExplorerPatcher) 禁用 Win11 右键菜单<br>以下有关右键菜单的脚本无法保证在 Win11 右键菜单中同样可用<br>所有脚本均属于我的个人解决方案，若使用即表示您了解相关风险
+> 未经过更多测试，个人系统及版本为 Windows11 Pro 24H2<br>同时该系统已通过 [ExplorerPatcher](https://github.com/valinet/ExplorerPatcher) 禁用 Win11 右键菜单<br>所有脚本均属于我的个人解决方案，若使用即表示您了解相关风险
 
 ## 🔧 脚本集
 
