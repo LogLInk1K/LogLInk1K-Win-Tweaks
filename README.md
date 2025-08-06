@@ -27,7 +27,7 @@ LogLInk1K-Win-Tweaks 主要用于备份我个人在使用 Windows 11 过程中�
 ---
 
 - 之所以想移除右键菜单中的 AMD Software:Adrenalin Edition ，主要是因为这一串太长了，显得右键菜单的窗口大小很臃肿，右键菜单打开速度缓慢，而且一般我想使用 AMD Software 时，主要的打开方式是通过 Windows 右下角的托盘菜单里的 AMD Software 来打开。
-- 两个方法的区别主要是方法2无法恢复，需要重新安装AMD显卡驱动，才能恢复右键菜单中的 AMD Software:Adrenalin Edition
+- 两个方法的区别主要是方法2无法恢复，需要重新安装AMD显卡驱动才能恢复右键菜单中的 AMD Software:Adrenalin Edition
 
 ---
 
