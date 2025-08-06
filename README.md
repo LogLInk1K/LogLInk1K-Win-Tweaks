@@ -14,7 +14,7 @@ LogLInk1K-Win-Tweaks 主要用于备份我个人在使用 Windows 11 过程中�
 | [AMD显卡驱动版本恢复.reg](/AMD_Tools/AMD显卡驱动版本恢复.reg) | 还原显卡驱动版本信息 | 修复因版本修改导致的兼容问题 |
 | [桌面右键菜单AMDSoftware移除-方法1.reg](/AMD_Tools/桌面右键菜单AMDSoftware移除-方法1.reg) | 通过注册表移除右键菜单中的 AMD Software:Adrenalin Edition|
 | [桌面右键菜单AMDSoftware恢复-方法1.reg](/AMD_Tools/桌面右键菜单AMDSoftware恢复-方法1.reg) | 通过注册表恢复右键菜单中的 AMD Software:Adrenalin Edition|
-| [桌面右键菜单AMDSoftware移除-方法2.txt](/AMD_Tools/桌面右键菜单AMDSoftware恢复-方法2.txt) | 通过PowerShell命令来彻底移除右键菜单中的 AMD Software:Adrenalin Edition |
+| [桌面右键菜单AMDSoftware移除-方法2.txt](/AMD_Tools/桌面右键菜单AMDSoftware移除-方法2.txt) | 通过PowerShell命令来彻底移除右键菜单中的 AMD Software:Adrenalin Edition |
 | [桌面右键菜单添加在终端中打开.reg](/Desktop_Tweaks/桌面右键菜单添加在终端中打开.reg) | 添加"在终端中打开"选项 |
 | [桌面右键菜单移除在终端中打开.reg](/Desktop_Tweaks/桌面右键菜单移除在终端中打开.reg) | 移除"在终端中打开"选项 |
 
