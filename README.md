@@ -12,11 +12,11 @@ LogLInk1K-Win-Tweaks 主要用于备份我个人在使用 Windows 11 过程中�
 | [AMD显卡驱动版本查询.bat](/AMD_Tools/AMD显卡驱动版本查询.bat) | 快速检测当前驱动版本号 | 无需打开注册表，即可验证对驱动版本的修改是否生效 |
 | [AMD显卡驱动版本修改.reg](/AMD_Tools/AMD显卡驱动版本修改.reg) | 修改显卡驱动版本信息 | 绕过旧游戏，以及新游戏的驱动版本检测 |
 | [AMD显卡驱动版本恢复.reg](/AMD_Tools/AMD显卡驱动版本恢复.reg) | 还原显卡驱动版本信息 | 修复因版本修改导致的兼容问题 |
-| [桌面右键菜单AMDSoftware移除-方法1.reg](/AMD_Tools/桌面右键菜单AMDSoftware移除-方法1.reg) | 通过注册表移除右键菜单中的 AMD Software:Adrenalin Edition|
-| [桌面右键菜单AMDSoftware恢复-方法1.reg](/AMD_Tools/桌面右键菜单AMDSoftware恢复-方法1.reg) | 通过注册表恢复右键菜单中的 AMD Software:Adrenalin Edition|
-| [桌面右键菜单AMDSoftware移除-方法2.txt](/AMD_Tools/桌面右键菜单AMDSoftware移除-方法2.txt) | 通过PowerShell命令来彻底移除右键菜单中的 AMD Software:Adrenalin Edition |
-| [桌面右键菜单添加在终端中打开.reg](/Desktop_Tweaks/桌面右键菜单添加在终端中打开.reg) | 添加"在终端中打开"选项 |
-| [桌面右键菜单移除在终端中打开.reg](/Desktop_Tweaks/桌面右键菜单移除在终端中打开.reg) | 移除"在终端中打开"选项 |
+| [AMD-Software移除-方法1.reg](/AMD_Tools/AMD-Software移除-方法1.reg) | 通过注册表移除右键菜单中的 AMD Software:Adrenalin Edition|
+| [AMD-Software恢复-方法1.reg](/AMD_Tools/AMD-Software恢复-方法1.reg) | 通过注册表恢复右键菜单中的 AMD Software:Adrenalin Edition|
+| [AMD-Software移除-方法2.txt](/AMD_Tools/AMD-Software移除-方法2.txt) | 通过PowerShell命令来彻底移除右键菜单中的 AMD Software:Adrenalin Edition |
+| [添加在终端中打开.reg](/Desktop_Tweaks/添加在终端中打开.reg) | 为右键菜单添加"在终端中打开"选项 |
+| [移除在终端中打开.reg](/Desktop_Tweaks/移除在终端中打开.reg) | 为右键菜单移除"在终端中打开"选项 |
 
 ## 脚本来由
 
@@ -32,6 +32,6 @@ LogLInk1K-Win-Tweaks 主要用于备份我个人在使用 Windows 11 过程中�
 ---
 
 - 添加在终端中打开.reg的产生，其实与以上的AMD Software移除-方法1有关
-- 通过方法1的方式来移除 AMD Software 后，会莫名导致系统原本的“在终端中打开”消失（暂不清楚是否会影响更多的右键菜单选项），所以需要自行添加一个作为替代
+- 通过方法1的方式来移除右键菜单中的 AMD Software:Adrenalin Edition 后，会莫名导致系统原本的“在终端中打开”消失（暂不清楚是否会影响更多的右键菜单选项），所以需要自行添加一个作为替代
 
 ---
