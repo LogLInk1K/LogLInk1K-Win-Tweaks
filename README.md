@@ -20,7 +20,7 @@ LogLInk1K-Win-Tweaks 主要用于备份我个人在使用 Windows 11 过程中�
 
 | 图标 | 用处 |
 |----------|------|
-| [wt_icon.ico](/Icon/wt_icon.ico) | wt.exe由于其所在目录的权限问题，直接指向exe，图标可能不显示，故需提取一个图标放在可用目录 |
+| [wt_icon.ico](/Icon/wt_icon.ico) | wt.exe由于其所在目录的特殊性，直接指向可能会出现权限问题，导致图标不显示，故需提取一个图标放在可用目录 |
 
 
 ## 脚本来由
